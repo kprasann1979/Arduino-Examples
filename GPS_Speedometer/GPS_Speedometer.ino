@@ -2,11 +2,11 @@
 //1.8inch SPI TFT 128x160 - 1.RST-D7;2.CS-D9;3.D/C-D8;4.Din-D11;5.CLK-D13;6.Vcc-5v;7.BL-3.3v;8.Gnd-G
 //GPS Module: Tx(usually green cable)-ArduinoRx(4 if Softwareserial);Rx(usually yellow cable)-ArduinoTx(3 if Softwareserial)
 
-#include <TFT_ILI9163.h> // Hardware-specific library
+#include <TFT_ILI9163.h>    // https://github.com/Bodmer/TFT_ILI9163
 #include <SPI.h>
-#include <SoftwareSerial.h>
-#include <TinyGPS++.h>
-#include <SimpleTimer.h>
+#include <SoftwareSerial.h> // http://playground.arduino.cc/Code/SimpleTimer
+#include <TinyGPS++.h>      // https://github.com/mikalhart/TinyGPSPlus
+#include <SimpleTimer.h>    // http://playground.arduino.cc/Code/SimpleTimer
 
 
 static const int RXPin = 4, TXPin = 3;
