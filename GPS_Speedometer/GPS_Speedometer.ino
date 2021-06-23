@@ -13,7 +13,8 @@ static const int RXPin = 4, TXPin = 3;
 static const uint32_t GPSBaud = 9600;
 
 int lock = 0;
-uint32_t satVal;
+//uint32_t satVal;
+int satVal;
 char *speedStr = malloc(3);
 char *satStr = malloc(2);
 double latVal;double lngVal;
