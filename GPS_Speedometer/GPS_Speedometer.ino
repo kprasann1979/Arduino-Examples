@@ -4,7 +4,7 @@
 
 #include <TFT_ILI9163.h>    // https://github.com/Bodmer/TFT_ILI9163
 #include <SPI.h>
-#include <SoftwareSerial.h> // http://playground.arduino.cc/Code/SimpleTimer
+#include <SoftwareSerial.h> 
 #include <TinyGPS++.h>      // https://github.com/mikalhart/TinyGPSPlus
 #include <SimpleTimer.h>    // http://playground.arduino.cc/Code/SimpleTimer
 
